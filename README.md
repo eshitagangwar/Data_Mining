@@ -1,10 +1,15 @@
 # Data_Mining
 task1: Data Exploration
 We will explore the review dataset and write a program to answer the following questions:
+
 A. The total number of reviews 
+
 B. The number of reviews in a given year, y 
+
 C. The number of distinct users who have written the reviews 
+
 D. Top m users who have the largest number of reviews and its count 
+
 E. Top n frequent words in the review text. The words should be in lower cases. The following punctuations
 “(”, “[”, “,”, “.”, “!”, “?”, “:”, “;”, “]”, “)” and the given stopwords are excluded 
 
