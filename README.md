@@ -1,5 +1,6 @@
 # Data_Mining
-task1: Data Exploration
+## task1: Data Exploration
+
 We will explore the review dataset and write a program to answer the following questions:
 
 A. The total number of reviews 
@@ -13,7 +14,7 @@ D. Top m users who have the largest number of reviews and its count
 E. Top n frequent words in the review text. The words should be in lower cases. The following punctuations
 “(”, “[”, “,”, “.”, “!”, “?”, “:”, “;”, “]”, “)” and the given stopwords are excluded 
 
-task2: Exploration on Multiple Datasets
+## task2: Exploration on Multiple Datasets
 
 In task2, we will explore the two datasets together (i.e., review and business) and write a program to
 compute the average stars for each business category and output top n categories with the highest
@@ -21,7 +22,7 @@ average stars. The business categories should be extracted from the “categorie
 and split by comma (also need to remove leading and trailing spaces for the extracted categories). We
 need to implement a version without Spark  and a version with Spark.
 
-task3: Partition  
+## task3: Partition  
 
 In this task, we will learn how partitions work in the RDD. we need to compute the businesses that have
 more than n reviews in the review file. Other than the default way of partitioning the RDD, we should
