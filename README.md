@@ -14,6 +14,7 @@ E. Top n frequent words in the review text. The words should be in lower cases. 
 “(”, “[”, “,”, “.”, “!”, “?”, “:”, “;”, “]”, “)” and the given stopwords are excluded 
 
 task2: Exploration on Multiple Datasets
+
 In task2, we will explore the two datasets together (i.e., review and business) and write a program to
 compute the average stars for each business category and output top n categories with the highest
 average stars. The business categories should be extracted from the “categories” tag in the business file
@@ -21,6 +22,7 @@ and split by comma (also need to remove leading and trailing spaces for the extr
 need to implement a version without Spark  and a version with Spark.
 
 task3: Partition  
+
 In this task, we will learn how partitions work in the RDD. we need to compute the businesses that have
 more than n reviews in the review file. Other than the default way of partitioning the RDD, we should
 also design a customized partition function to improve the computational efficiency. Our program will be
